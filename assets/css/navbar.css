@@ -1,0 +1,45 @@
+
+.nav-li-left {
+    float: left;
+    padding: 20px;
+    font-size: x-large;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: white;
+}
+.nav-li-right {
+    float: right;
+    font-size: small;
+    color: #666666;
+    background-color: white;
+    padding: 25px 0px 10px 10px; 
+}
+.nav-link {
+    display: block;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin: 0;
+    z-index: 3;
+}
+.nav-link-left {
+    background-color: #4aaaa5;
+    font-weight: bolder;
+}
+.nav-link-right {
+    background-color: white;
+    text-decoration: none;
+}
+.nav_ul {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav-section {
+    width: 100%;
+    background: white;
+    border-bottom: 2px solid #777777;
+}
