@@ -16,16 +16,17 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    overflow: hidden;
 }
 #content-profile-image {
     float: left;
-    height: 165px;
-    width: 165px;
+    height: 190px;
+    width: 190px;
     margin: 20px;
 }
 #content-body {
     background: #eee;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     position: relative;
 }
 p {
@@ -79,4 +80,39 @@ label {
 }
 textarea {
     height: 200px;
+}
+.portfolio-image-div {
+    background: #eee;
+    float: left;
+    position: relative;
+    margin: 20px;
+}
+.portfolio-image-ribbon-text {
+    background: #4aaaa5;
+    padding-top: 20px;
+    text-align: center;
+    color: #dddddd;
+    font-size: large;
+}
+.portfolio-image {
+    height: 250px;
+    width: 250px;
+    background: #eee;
+    position: relative;
+}
+.portfolio-image-ribbon {
+    top: 65%;
+    z-index: 1000;
+    background: #4aaaa5;
+    width: 100%;
+    height: 50px;
+    display:inline-block;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding-top: 15px;
+}
+.clear-both-div {
+    clear: both;
 }
